@@ -1,0 +1,58 @@
+Objective:
+This lab is design to get you started with using a heap in an application.
+
+ 
+
+Instructions:
+Using the TextInput, Heap, and any other classes you need, create an auto-correct feature as shown in the video below. You may design this feature any way you like, as long as you are using a heap, and also top-down design. This means I want multiple objects working toether. You do not have to implement it exactly as I have, but here are the classes I made to help solve this problem:
+
+ 
+
+Word  
+
+// inherits sf::Text. It adds a new parameter, priority so that it can be add to my heap
+
+
+
+FileReader 
+
+// reads data from a file, and stores it in a vector
+
+
+
+WordSort 
+
+// uses FileReader to import data, then uses the data to compare with what the user type. I has a heuristic function to determine a priority for each Word
+
+// This is the item that is drawn by the window to show all the words in a heap-sorted order
+ 
+
+Here is what my main looks like:
+
+TextInput t;
+t.enableState(ENABLED);
+t.setPosition({100, 100});
+WordSort ws("file.txt");
+ws.setPosition({200, 200});
+while(Window::window.isOpen())
+{
+
+    while(window.pollEvent(event))
+    {
+        if(sf::Event::Closed == event.type)
+        {
+            Window::window.close();
+        }
+        t.eventHandler(window, event);
+        if(event.type == sf::Event::TextEntered)
+            ws.prioritize(t.getText());
+    }
+    t.update();
+    Window::window.clear();
+    Window::window.draw(t);
+    Window::window.draw(ws);
+    Window::window.display();
+}
+
+Create your own file with just a few words while you are testing. Once you feel confident about your solution, test the following file containing the top 5000 baby girl names found here:
+
