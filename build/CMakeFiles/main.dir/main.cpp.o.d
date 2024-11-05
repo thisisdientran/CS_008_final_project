@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/main.cpp.o: \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/main.cpp \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__config \

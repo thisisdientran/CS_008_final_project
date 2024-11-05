@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input
+CMAKE_SOURCE_DIR = /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build
+CMAKE_BINARY_DIR = /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -310,35 +310,95 @@ _tests/_test_files/testB.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.s
 .PHONY : _tests/_test_files/testB.cpp.s
 
-includes/GUI_Component/GUI_Component.o: includes/GUI_Component/GUI_Component.cpp.o
-.PHONY : includes/GUI_Component/GUI_Component.o
+includes/Controller/Controller.o: includes/Controller/Controller.cpp.o
+.PHONY : includes/Controller/Controller.o
 
 # target to build an object file
-includes/GUI_Component/GUI_Component.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/GUI_Component/GUI_Component.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/GUI_Component/GUI_Component.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o
-.PHONY : includes/GUI_Component/GUI_Component.cpp.o
+includes/Controller/Controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/Controller/Controller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/Controller/Controller.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o
+.PHONY : includes/Controller/Controller.cpp.o
 
-includes/GUI_Component/GUI_Component.i: includes/GUI_Component/GUI_Component.cpp.i
-.PHONY : includes/GUI_Component/GUI_Component.i
+includes/Controller/Controller.i: includes/Controller/Controller.cpp.i
+.PHONY : includes/Controller/Controller.i
 
 # target to preprocess a source file
-includes/GUI_Component/GUI_Component.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/GUI_Component/GUI_Component.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/GUI_Component/GUI_Component.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.i
-.PHONY : includes/GUI_Component/GUI_Component.cpp.i
+includes/Controller/Controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/Controller/Controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/Controller/Controller.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/Controller/Controller.cpp.i
+.PHONY : includes/Controller/Controller.cpp.i
 
-includes/GUI_Component/GUI_Component.s: includes/GUI_Component/GUI_Component.cpp.s
-.PHONY : includes/GUI_Component/GUI_Component.s
+includes/Controller/Controller.s: includes/Controller/Controller.cpp.s
+.PHONY : includes/Controller/Controller.s
 
 # target to generate assembly for a file
-includes/GUI_Component/GUI_Component.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/GUI_Component/GUI_Component.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/GUI_Component/GUI_Component.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.s
-.PHONY : includes/GUI_Component/GUI_Component.cpp.s
+includes/Controller/Controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/Controller/Controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/Controller/Controller.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/Controller/Controller.cpp.s
+.PHONY : includes/Controller/Controller.cpp.s
+
+includes/Model/Model.o: includes/Model/Model.cpp.o
+.PHONY : includes/Model/Model.o
+
+# target to build an object file
+includes/Model/Model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/Model/Model.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/Model/Model.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/Model/Model.cpp.o
+.PHONY : includes/Model/Model.cpp.o
+
+includes/Model/Model.i: includes/Model/Model.cpp.i
+.PHONY : includes/Model/Model.i
+
+# target to preprocess a source file
+includes/Model/Model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/Model/Model.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/Model/Model.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/Model/Model.cpp.i
+.PHONY : includes/Model/Model.cpp.i
+
+includes/Model/Model.s: includes/Model/Model.cpp.s
+.PHONY : includes/Model/Model.s
+
+# target to generate assembly for a file
+includes/Model/Model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/Model/Model.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/Model/Model.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/Model/Model.cpp.s
+.PHONY : includes/Model/Model.cpp.s
+
+includes/View/View.o: includes/View/View.cpp.o
+.PHONY : includes/View/View.o
+
+# target to build an object file
+includes/View/View.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/View/View.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/View/View.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/View/View.cpp.o
+.PHONY : includes/View/View.cpp.o
+
+includes/View/View.i: includes/View/View.cpp.i
+.PHONY : includes/View/View.i
+
+# target to preprocess a source file
+includes/View/View.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/View/View.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/View/View.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/View/View.cpp.i
+.PHONY : includes/View/View.cpp.i
+
+includes/View/View.s: includes/View/View.cpp.s
+.PHONY : includes/View/View.s
+
+# target to generate assembly for a file
+includes/View/View.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/View/View.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/View/View.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/View/View.cpp.s
+.PHONY : includes/View/View.cpp.s
 
 includes/auto_correct_ish/auto_correct_ish.o: includes/auto_correct_ish/auto_correct_ish.cpp.o
 .PHONY : includes/auto_correct_ish/auto_correct_ish.o
@@ -400,6 +460,36 @@ includes/avl_tree/avl_tree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.s
 .PHONY : includes/avl_tree/avl_tree.cpp.s
 
+includes/cursor/cursor.o: includes/cursor/cursor.cpp.o
+.PHONY : includes/cursor/cursor.o
+
+# target to build an object file
+includes/cursor/cursor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/cursor/cursor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/cursor/cursor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o
+.PHONY : includes/cursor/cursor.cpp.o
+
+includes/cursor/cursor.i: includes/cursor/cursor.cpp.i
+.PHONY : includes/cursor/cursor.i
+
+# target to preprocess a source file
+includes/cursor/cursor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/cursor/cursor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/cursor/cursor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/cursor/cursor.cpp.i
+.PHONY : includes/cursor/cursor.cpp.i
+
+includes/cursor/cursor.s: includes/cursor/cursor.cpp.s
+.PHONY : includes/cursor/cursor.s
+
+# target to generate assembly for a file
+includes/cursor/cursor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/cursor/cursor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/cursor/cursor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/cursor/cursor.cpp.s
+.PHONY : includes/cursor/cursor.cpp.s
+
 includes/file_reader/file_reader.o: includes/file_reader/file_reader.cpp.o
 .PHONY : includes/file_reader/file_reader.o
 
@@ -430,6 +520,36 @@ includes/file_reader/file_reader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.s
 .PHONY : includes/file_reader/file_reader.cpp.s
 
+includes/font/font.o: includes/font/font.cpp.o
+.PHONY : includes/font/font.o
+
+# target to build an object file
+includes/font/font.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/font/font.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/font/font.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/font/font.cpp.o
+.PHONY : includes/font/font.cpp.o
+
+includes/font/font.i: includes/font/font.cpp.i
+.PHONY : includes/font/font.i
+
+# target to preprocess a source file
+includes/font/font.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/font/font.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/font/font.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/font/font.cpp.i
+.PHONY : includes/font/font.cpp.i
+
+includes/font/font.s: includes/font/font.cpp.s
+.PHONY : includes/font/font.s
+
+# target to generate assembly for a file
+includes/font/font.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/font/font.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/font/font.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/font/font.cpp.s
+.PHONY : includes/font/font.cpp.s
+
 includes/heap/heap.o: includes/heap/heap.cpp.o
 .PHONY : includes/heap/heap.o
 
@@ -459,6 +579,66 @@ includes/heap/heap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/heap/heap.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/heap/heap.cpp.s
 .PHONY : includes/heap/heap.cpp.s
+
+includes/spriteSheetCutter/SpriteSheetCutter.o: includes/spriteSheetCutter/SpriteSheetCutter.cpp.o
+.PHONY : includes/spriteSheetCutter/SpriteSheetCutter.o
+
+# target to build an object file
+includes/spriteSheetCutter/SpriteSheetCutter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o
+.PHONY : includes/spriteSheetCutter/SpriteSheetCutter.cpp.o
+
+includes/spriteSheetCutter/SpriteSheetCutter.i: includes/spriteSheetCutter/SpriteSheetCutter.cpp.i
+.PHONY : includes/spriteSheetCutter/SpriteSheetCutter.i
+
+# target to preprocess a source file
+includes/spriteSheetCutter/SpriteSheetCutter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.i
+.PHONY : includes/spriteSheetCutter/SpriteSheetCutter.cpp.i
+
+includes/spriteSheetCutter/SpriteSheetCutter.s: includes/spriteSheetCutter/SpriteSheetCutter.cpp.s
+.PHONY : includes/spriteSheetCutter/SpriteSheetCutter.s
+
+# target to generate assembly for a file
+includes/spriteSheetCutter/SpriteSheetCutter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.s
+.PHONY : includes/spriteSheetCutter/SpriteSheetCutter.cpp.s
+
+includes/states/states.o: includes/states/states.cpp.o
+.PHONY : includes/states/states.o
+
+# target to build an object file
+includes/states/states.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/states/states.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/states/states.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/states/states.cpp.o
+.PHONY : includes/states/states.cpp.o
+
+includes/states/states.i: includes/states/states.cpp.i
+.PHONY : includes/states/states.i
+
+# target to preprocess a source file
+includes/states/states.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/states/states.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/states/states.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/states/states.cpp.i
+.PHONY : includes/states/states.cpp.i
+
+includes/states/states.s: includes/states/states.cpp.s
+.PHONY : includes/states/states.s
+
+# target to generate assembly for a file
+includes/states/states.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/states/states.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/states/states.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/states/states.cpp.s
+.PHONY : includes/states/states.cpp.s
 
 includes/text_input/text_input.o: includes/text_input/text_input.cpp.o
 .PHONY : includes/text_input/text_input.o
@@ -630,21 +810,39 @@ help:
 	@echo "... _tests/_test_files/testB.o"
 	@echo "... _tests/_test_files/testB.i"
 	@echo "... _tests/_test_files/testB.s"
-	@echo "... includes/GUI_Component/GUI_Component.o"
-	@echo "... includes/GUI_Component/GUI_Component.i"
-	@echo "... includes/GUI_Component/GUI_Component.s"
+	@echo "... includes/Controller/Controller.o"
+	@echo "... includes/Controller/Controller.i"
+	@echo "... includes/Controller/Controller.s"
+	@echo "... includes/Model/Model.o"
+	@echo "... includes/Model/Model.i"
+	@echo "... includes/Model/Model.s"
+	@echo "... includes/View/View.o"
+	@echo "... includes/View/View.i"
+	@echo "... includes/View/View.s"
 	@echo "... includes/auto_correct_ish/auto_correct_ish.o"
 	@echo "... includes/auto_correct_ish/auto_correct_ish.i"
 	@echo "... includes/auto_correct_ish/auto_correct_ish.s"
 	@echo "... includes/avl_tree/avl_tree.o"
 	@echo "... includes/avl_tree/avl_tree.i"
 	@echo "... includes/avl_tree/avl_tree.s"
+	@echo "... includes/cursor/cursor.o"
+	@echo "... includes/cursor/cursor.i"
+	@echo "... includes/cursor/cursor.s"
 	@echo "... includes/file_reader/file_reader.o"
 	@echo "... includes/file_reader/file_reader.i"
 	@echo "... includes/file_reader/file_reader.s"
+	@echo "... includes/font/font.o"
+	@echo "... includes/font/font.i"
+	@echo "... includes/font/font.s"
 	@echo "... includes/heap/heap.o"
 	@echo "... includes/heap/heap.i"
 	@echo "... includes/heap/heap.s"
+	@echo "... includes/spriteSheetCutter/SpriteSheetCutter.o"
+	@echo "... includes/spriteSheetCutter/SpriteSheetCutter.i"
+	@echo "... includes/spriteSheetCutter/SpriteSheetCutter.s"
+	@echo "... includes/states/states.o"
+	@echo "... includes/states/states.i"
+	@echo "... includes/states/states.s"
 	@echo "... includes/text_input/text_input.o"
 	@echo "... includes/text_input/text_input.i"
 	@echo "... includes/text_input/text_input.s"

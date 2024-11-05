@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/includes/tree/tree.cpp.o: \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/tree/tree.cpp \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/tree/tree.h \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/tree/tree.cpp \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/tree/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__config \
@@ -824,5 +824,5 @@ CMakeFiles/main.dir/includes/tree/tree.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cstdarg \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/tree/../bst_tree/bst_tree.h \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/tree/../bst_tree/../tree_node/tree_node.h
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/tree/../bst_tree/bst_tree.h \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/tree/../bst_tree/../tree_node/tree_node.h

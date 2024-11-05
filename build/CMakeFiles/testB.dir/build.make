@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input
+CMAKE_SOURCE_DIR = /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build
+CMAKE_BINARY_DIR = /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testB.dir/depend.make
@@ -70,153 +70,243 @@ include CMakeFiles/testB.dir/progress.make
 include CMakeFiles/testB.dir/flags.make
 
 CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/_tests/_test_files/testB.cpp
+CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/_tests/_test_files/testB.cpp
 CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o -MF CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o.d -o CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/_tests/_test_files/testB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o -MF CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o.d -o CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/_tests/_test_files/testB.cpp
 
 CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/_tests/_test_files/testB.cpp > CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/_tests/_test_files/testB.cpp > CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.i
 
 CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/_tests/_test_files/testB.cpp -o CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/_tests/_test_files/testB.cpp -o CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.s
 
-CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/GUI_Component/GUI_Component.cpp
-CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o -MF CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o.d -o CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/GUI_Component/GUI_Component.cpp
+CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o: CMakeFiles/testB.dir/flags.make
+CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/Controller/Controller.cpp
+CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o -MF CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o.d -o CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/Controller/Controller.cpp
 
-CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/GUI_Component/GUI_Component.cpp > CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.i
+CMakeFiles/testB.dir/includes/Controller/Controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/Controller/Controller.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/Controller/Controller.cpp > CMakeFiles/testB.dir/includes/Controller/Controller.cpp.i
 
-CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/GUI_Component/GUI_Component.cpp -o CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.s
+CMakeFiles/testB.dir/includes/Controller/Controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/Controller/Controller.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/Controller/Controller.cpp -o CMakeFiles/testB.dir/includes/Controller/Controller.cpp.s
+
+CMakeFiles/testB.dir/includes/Model/Model.cpp.o: CMakeFiles/testB.dir/flags.make
+CMakeFiles/testB.dir/includes/Model/Model.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/Model/Model.cpp
+CMakeFiles/testB.dir/includes/Model/Model.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testB.dir/includes/Model/Model.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/Model/Model.cpp.o -MF CMakeFiles/testB.dir/includes/Model/Model.cpp.o.d -o CMakeFiles/testB.dir/includes/Model/Model.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/Model/Model.cpp
+
+CMakeFiles/testB.dir/includes/Model/Model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/Model/Model.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/Model/Model.cpp > CMakeFiles/testB.dir/includes/Model/Model.cpp.i
+
+CMakeFiles/testB.dir/includes/Model/Model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/Model/Model.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/Model/Model.cpp -o CMakeFiles/testB.dir/includes/Model/Model.cpp.s
+
+CMakeFiles/testB.dir/includes/View/View.cpp.o: CMakeFiles/testB.dir/flags.make
+CMakeFiles/testB.dir/includes/View/View.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/View/View.cpp
+CMakeFiles/testB.dir/includes/View/View.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testB.dir/includes/View/View.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/View/View.cpp.o -MF CMakeFiles/testB.dir/includes/View/View.cpp.o.d -o CMakeFiles/testB.dir/includes/View/View.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/View/View.cpp
+
+CMakeFiles/testB.dir/includes/View/View.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/View/View.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/View/View.cpp > CMakeFiles/testB.dir/includes/View/View.cpp.i
+
+CMakeFiles/testB.dir/includes/View/View.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/View/View.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/View/View.cpp -o CMakeFiles/testB.dir/includes/View/View.cpp.s
 
 CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/auto_correct_ish/auto_correct_ish.cpp
+CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/auto_correct_ish/auto_correct_ish.cpp
 CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o -MF CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o.d -o CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/auto_correct_ish/auto_correct_ish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o -MF CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o.d -o CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/auto_correct_ish/auto_correct_ish.cpp
 
 CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/auto_correct_ish/auto_correct_ish.cpp > CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/auto_correct_ish/auto_correct_ish.cpp > CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.i
 
 CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/auto_correct_ish/auto_correct_ish.cpp -o CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/auto_correct_ish/auto_correct_ish.cpp -o CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.s
 
 CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/avl_tree/avl_tree.cpp
+CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/avl_tree/avl_tree.cpp
 CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o -MF CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o.d -o CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/avl_tree/avl_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o -MF CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o.d -o CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/avl_tree/avl_tree.cpp
 
 CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/avl_tree/avl_tree.cpp > CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/avl_tree/avl_tree.cpp > CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.i
 
 CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/avl_tree/avl_tree.cpp -o CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/avl_tree/avl_tree.cpp -o CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.s
+
+CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o: CMakeFiles/testB.dir/flags.make
+CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/cursor/cursor.cpp
+CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o -MF CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o.d -o CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/cursor/cursor.cpp
+
+CMakeFiles/testB.dir/includes/cursor/cursor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/cursor/cursor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/cursor/cursor.cpp > CMakeFiles/testB.dir/includes/cursor/cursor.cpp.i
+
+CMakeFiles/testB.dir/includes/cursor/cursor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/cursor/cursor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/cursor/cursor.cpp -o CMakeFiles/testB.dir/includes/cursor/cursor.cpp.s
 
 CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/file_reader/file_reader.cpp
+CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/file_reader/file_reader.cpp
 CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o -MF CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o.d -o CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/file_reader/file_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o -MF CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o.d -o CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/file_reader/file_reader.cpp
 
 CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/file_reader/file_reader.cpp > CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/file_reader/file_reader.cpp > CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.i
 
 CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/file_reader/file_reader.cpp -o CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/file_reader/file_reader.cpp -o CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.s
+
+CMakeFiles/testB.dir/includes/font/font.cpp.o: CMakeFiles/testB.dir/flags.make
+CMakeFiles/testB.dir/includes/font/font.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/font/font.cpp
+CMakeFiles/testB.dir/includes/font/font.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testB.dir/includes/font/font.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/font/font.cpp.o -MF CMakeFiles/testB.dir/includes/font/font.cpp.o.d -o CMakeFiles/testB.dir/includes/font/font.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/font/font.cpp
+
+CMakeFiles/testB.dir/includes/font/font.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/font/font.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/font/font.cpp > CMakeFiles/testB.dir/includes/font/font.cpp.i
+
+CMakeFiles/testB.dir/includes/font/font.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/font/font.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/font/font.cpp -o CMakeFiles/testB.dir/includes/font/font.cpp.s
 
 CMakeFiles/testB.dir/includes/heap/heap.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/heap/heap.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/heap/heap.cpp
+CMakeFiles/testB.dir/includes/heap/heap.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/heap/heap.cpp
 CMakeFiles/testB.dir/includes/heap/heap.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testB.dir/includes/heap/heap.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/heap/heap.cpp.o -MF CMakeFiles/testB.dir/includes/heap/heap.cpp.o.d -o CMakeFiles/testB.dir/includes/heap/heap.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/heap/heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testB.dir/includes/heap/heap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/heap/heap.cpp.o -MF CMakeFiles/testB.dir/includes/heap/heap.cpp.o.d -o CMakeFiles/testB.dir/includes/heap/heap.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/heap/heap.cpp
 
 CMakeFiles/testB.dir/includes/heap/heap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/heap/heap.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/heap/heap.cpp > CMakeFiles/testB.dir/includes/heap/heap.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/heap/heap.cpp > CMakeFiles/testB.dir/includes/heap/heap.cpp.i
 
 CMakeFiles/testB.dir/includes/heap/heap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/heap/heap.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/heap/heap.cpp -o CMakeFiles/testB.dir/includes/heap/heap.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/heap/heap.cpp -o CMakeFiles/testB.dir/includes/heap/heap.cpp.s
+
+CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o: CMakeFiles/testB.dir/flags.make
+CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/spriteSheetCutter/SpriteSheetCutter.cpp
+CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o -MF CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o.d -o CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/spriteSheetCutter/SpriteSheetCutter.cpp
+
+CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/spriteSheetCutter/SpriteSheetCutter.cpp > CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.i
+
+CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/spriteSheetCutter/SpriteSheetCutter.cpp -o CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.s
+
+CMakeFiles/testB.dir/includes/states/states.cpp.o: CMakeFiles/testB.dir/flags.make
+CMakeFiles/testB.dir/includes/states/states.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/states/states.cpp
+CMakeFiles/testB.dir/includes/states/states.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/testB.dir/includes/states/states.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/states/states.cpp.o -MF CMakeFiles/testB.dir/includes/states/states.cpp.o.d -o CMakeFiles/testB.dir/includes/states/states.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/states/states.cpp
+
+CMakeFiles/testB.dir/includes/states/states.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/states/states.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/states/states.cpp > CMakeFiles/testB.dir/includes/states/states.cpp.i
+
+CMakeFiles/testB.dir/includes/states/states.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/states/states.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/states/states.cpp -o CMakeFiles/testB.dir/includes/states/states.cpp.s
 
 CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/text_input/text_input.cpp
+CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/text_input/text_input.cpp
 CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o -MF CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o.d -o CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/text_input/text_input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o -MF CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o.d -o CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/text_input/text_input.cpp
 
 CMakeFiles/testB.dir/includes/text_input/text_input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/text_input/text_input.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/text_input/text_input.cpp > CMakeFiles/testB.dir/includes/text_input/text_input.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/text_input/text_input.cpp > CMakeFiles/testB.dir/includes/text_input/text_input.cpp.i
 
 CMakeFiles/testB.dir/includes/text_input/text_input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/text_input/text_input.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/text_input/text_input.cpp -o CMakeFiles/testB.dir/includes/text_input/text_input.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/text_input/text_input.cpp -o CMakeFiles/testB.dir/includes/text_input/text_input.cpp.s
 
 CMakeFiles/testB.dir/includes/tree/tree.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/tree/tree.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/tree/tree.cpp
+CMakeFiles/testB.dir/includes/tree/tree.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/tree/tree.cpp
 CMakeFiles/testB.dir/includes/tree/tree.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testB.dir/includes/tree/tree.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/tree/tree.cpp.o -MF CMakeFiles/testB.dir/includes/tree/tree.cpp.o.d -o CMakeFiles/testB.dir/includes/tree/tree.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/tree/tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/testB.dir/includes/tree/tree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/tree/tree.cpp.o -MF CMakeFiles/testB.dir/includes/tree/tree.cpp.o.d -o CMakeFiles/testB.dir/includes/tree/tree.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/tree/tree.cpp
 
 CMakeFiles/testB.dir/includes/tree/tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/tree/tree.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/tree/tree.cpp > CMakeFiles/testB.dir/includes/tree/tree.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/tree/tree.cpp > CMakeFiles/testB.dir/includes/tree/tree.cpp.i
 
 CMakeFiles/testB.dir/includes/tree/tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/tree/tree.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/tree/tree.cpp -o CMakeFiles/testB.dir/includes/tree/tree.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/tree/tree.cpp -o CMakeFiles/testB.dir/includes/tree/tree.cpp.s
 
 CMakeFiles/testB.dir/includes/word/word.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/word/word.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word/word.cpp
+CMakeFiles/testB.dir/includes/word/word.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word/word.cpp
 CMakeFiles/testB.dir/includes/word/word.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testB.dir/includes/word/word.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/word/word.cpp.o -MF CMakeFiles/testB.dir/includes/word/word.cpp.o.d -o CMakeFiles/testB.dir/includes/word/word.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word/word.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/testB.dir/includes/word/word.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/word/word.cpp.o -MF CMakeFiles/testB.dir/includes/word/word.cpp.o.d -o CMakeFiles/testB.dir/includes/word/word.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word/word.cpp
 
 CMakeFiles/testB.dir/includes/word/word.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/word/word.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word/word.cpp > CMakeFiles/testB.dir/includes/word/word.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word/word.cpp > CMakeFiles/testB.dir/includes/word/word.cpp.i
 
 CMakeFiles/testB.dir/includes/word/word.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/word/word.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word/word.cpp -o CMakeFiles/testB.dir/includes/word/word.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word/word.cpp -o CMakeFiles/testB.dir/includes/word/word.cpp.s
 
 CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o: CMakeFiles/testB.dir/flags.make
-CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word_sort/word_sort.cpp
+CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word_sort/word_sort.cpp
 CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o: CMakeFiles/testB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o -MF CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o.d -o CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word_sort/word_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o -MF CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o.d -o CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o -c /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word_sort/word_sort.cpp
 
 CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word_sort/word_sort.cpp > CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word_sort/word_sort.cpp > CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.i
 
 CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word_sort/word_sort.cpp -o CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word_sort/word_sort.cpp -o CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.s
 
 # Object files for target testB
 testB_OBJECTS = \
 "CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o" \
-"CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o" \
+"CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o" \
+"CMakeFiles/testB.dir/includes/Model/Model.cpp.o" \
+"CMakeFiles/testB.dir/includes/View/View.cpp.o" \
 "CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o" \
 "CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o" \
+"CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o" \
 "CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o" \
+"CMakeFiles/testB.dir/includes/font/font.cpp.o" \
 "CMakeFiles/testB.dir/includes/heap/heap.cpp.o" \
+"CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o" \
+"CMakeFiles/testB.dir/includes/states/states.cpp.o" \
 "CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o" \
 "CMakeFiles/testB.dir/includes/tree/tree.cpp.o" \
 "CMakeFiles/testB.dir/includes/word/word.cpp.o" \
@@ -226,11 +316,17 @@ testB_OBJECTS = \
 testB_EXTERNAL_OBJECTS =
 
 bin/testB: CMakeFiles/testB.dir/_tests/_test_files/testB.cpp.o
-bin/testB: CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o
+bin/testB: CMakeFiles/testB.dir/includes/Controller/Controller.cpp.o
+bin/testB: CMakeFiles/testB.dir/includes/Model/Model.cpp.o
+bin/testB: CMakeFiles/testB.dir/includes/View/View.cpp.o
 bin/testB: CMakeFiles/testB.dir/includes/auto_correct_ish/auto_correct_ish.cpp.o
 bin/testB: CMakeFiles/testB.dir/includes/avl_tree/avl_tree.cpp.o
+bin/testB: CMakeFiles/testB.dir/includes/cursor/cursor.cpp.o
 bin/testB: CMakeFiles/testB.dir/includes/file_reader/file_reader.cpp.o
+bin/testB: CMakeFiles/testB.dir/includes/font/font.cpp.o
 bin/testB: CMakeFiles/testB.dir/includes/heap/heap.cpp.o
+bin/testB: CMakeFiles/testB.dir/includes/spriteSheetCutter/SpriteSheetCutter.cpp.o
+bin/testB: CMakeFiles/testB.dir/includes/states/states.cpp.o
 bin/testB: CMakeFiles/testB.dir/includes/text_input/text_input.cpp.o
 bin/testB: CMakeFiles/testB.dir/includes/tree/tree.cpp.o
 bin/testB: CMakeFiles/testB.dir/includes/word/word.cpp.o
@@ -241,7 +337,7 @@ bin/testB: /opt/homebrew/lib/libsfml-graphics.2.6.1.dylib
 bin/testB: /opt/homebrew/lib/libsfml-window.2.6.1.dylib
 bin/testB: /opt/homebrew/lib/libsfml-system.2.6.1.dylib
 bin/testB: CMakeFiles/testB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable bin/testB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable bin/testB"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testB.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -253,6 +349,6 @@ CMakeFiles/testB.dir/clean:
 .PHONY : CMakeFiles/testB.dir/clean
 
 CMakeFiles/testB.dir/depend:
-	cd /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/CMakeFiles/testB.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/CMakeFiles/testB.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/testB.dir/depend
 

@@ -1,6 +1,6 @@
 CMakeFiles/testB.dir/includes/word_sort/word_sort.cpp.o: \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word_sort/word_sort.cpp \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/word_sort/word_sort.h \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word_sort/word_sort.cpp \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/word_sort/word_sort.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__config \

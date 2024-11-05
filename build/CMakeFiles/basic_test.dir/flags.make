@@ -4,9 +4,9 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/SFML_INCLUDE_DIR -isystem /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-src/googletest/include -isystem /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-src/googletest -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/SFML_INCLUDE_DIR -isystem /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-src/googletest/include -isystem /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-src/googletest -isystem /opt/homebrew/include
 
-CXX_FLAGSarm64 = -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.2
+CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.2
 
-CXX_FLAGS = -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.2
+CXX_FLAGS = -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.2
 

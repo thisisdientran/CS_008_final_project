@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(VERBOSE "verifying file...
-       file='/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip'")
+       file='/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip'")
 
-  file("" "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip" actual_value)
+  file("" "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(VERBOSE " hash of
-    /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip
+    /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,32 +71,32 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip")
+if(EXISTS "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(VERBOSE "File already exists and hash match (skip download):
-  file='/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip'
+  file='/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip'
   =''"
       )
       return()
     else()
       message(VERBOSE "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip")
+      file(REMOVE "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip")
     endif()
   else()
     message(VERBOSE "File already exists but no hash specified (use URL_HASH):
-  file='/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip'
+  file='/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip")
+    file(REMOVE "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(VERBOSE "Downloading...
-   dst='/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip'
+   dst='/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -119,7 +119,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip"
+        "${url}" "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -136,7 +136,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(VERBOSE "Hash mismatch, removing...")
-          file(REMOVE "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip")
+          file(REMOVE "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip")
         else()
           message(VERBOSE "Downloading... done")
           return()

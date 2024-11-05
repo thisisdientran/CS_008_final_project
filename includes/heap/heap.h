@@ -36,7 +36,7 @@ public:
     friend void test(Heap<U>& heap);
 };
 
-#include "Heap.cpp"
+#include "heap.cpp"
 #endif //CS8FALL23_HEAP_HEAP_H
 
 #endif

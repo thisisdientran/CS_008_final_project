@@ -1,4 +1,4 @@
-# Install script for directory: /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-src
+# Install script for directory: /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 

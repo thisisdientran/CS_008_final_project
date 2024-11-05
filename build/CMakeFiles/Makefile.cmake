@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/CMakeLists.txt"
+  "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/CMakeLists.txt"
   "CMakeFiles/3.30.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.2/CMakeSystem.cmake"
@@ -51,6 +51,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeTestCCompiler.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeTestCXXCompiler.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeTestCompilerCommon.cmake"
+  "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeUnixFindMake.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceCompiles.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake"
   "/opt/homebrew/Cellar/cmake/3.30.2/share/cmake/Modules/CheckLibraryExists.cmake"

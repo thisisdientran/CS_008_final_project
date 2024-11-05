@@ -20,8 +20,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "TRUE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/google/googletest/archive/609281088cfefc76f9d0ce82e1ff6c30cc3591e5.zip"
-                    SOURCE_DIR          "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-src"
-                    BINARY_DIR          "/Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/build/_deps/googletest-build"
+                    SOURCE_DIR          "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-src"
+                    BINARY_DIR          "/Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

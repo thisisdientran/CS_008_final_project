@@ -18,7 +18,7 @@ class TextInput{
         
         void setLabel(std::string label);
         void setLabelSize(float size);
-        void setLabelMargin(float t, float );
+        void setLabelMargin();
         void setPosition(sf::Vector2f position);
 };
 

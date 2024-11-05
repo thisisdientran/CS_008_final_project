@@ -1,7 +1,7 @@
 CMakeFiles/basic_test.dir/includes/avl_tree/avl_tree.cpp.o: \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/avl_tree/avl_tree.cpp \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/avl_tree/avl_tree.h \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/avl_tree/../bst_tree/bst_tree.h \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/avl_tree/avl_tree.cpp \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/avl_tree/avl_tree.h \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/avl_tree/../bst_tree/bst_tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__config \
@@ -825,7 +825,7 @@ CMakeFiles/basic_test.dir/includes/avl_tree/avl_tree.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/cstdarg \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/avl_tree/../bst_tree/../tree_node/tree_node.h \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/avl_tree/../bst_tree/../tree_node/tree_node.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/queue \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__memory/temp_value.h \

@@ -1,6 +1,6 @@
-CMakeFiles/testB.dir/includes/GUI_Component/GUI_Component.cpp.o: \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/GUI_Component/GUI_Component.cpp \
-  /Users/tuand/Documents/Visual-Code-Studio/CS008/10_text_input/includes/GUI_Component/GUI_Component.h \
+CMakeFiles/testB.dir/includes/View/View.cpp.o: \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/View/View.cpp \
+  /Users/tuand/Documents/Visual-Code-Studio/CS008/CS_008_final_project/includes/View/View.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__config \
