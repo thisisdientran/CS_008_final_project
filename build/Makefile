@@ -670,6 +670,36 @@ includes/text_input/text_input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/text_input/text_input.cpp.s
 .PHONY : includes/text_input/text_input.cpp.s
 
+includes/text_label/text_label.o: includes/text_label/text_label.cpp.o
+.PHONY : includes/text_label/text_label.o
+
+# target to build an object file
+includes/text_label/text_label.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/text_label/text_label.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/text_label/text_label.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/text_label/text_label.cpp.o
+.PHONY : includes/text_label/text_label.cpp.o
+
+includes/text_label/text_label.i: includes/text_label/text_label.cpp.i
+.PHONY : includes/text_label/text_label.i
+
+# target to preprocess a source file
+includes/text_label/text_label.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/text_label/text_label.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/text_label/text_label.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/text_label/text_label.cpp.i
+.PHONY : includes/text_label/text_label.cpp.i
+
+includes/text_label/text_label.s: includes/text_label/text_label.cpp.s
+.PHONY : includes/text_label/text_label.s
+
+# target to generate assembly for a file
+includes/text_label/text_label.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/text_label/text_label.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/text_label/text_label.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/text_label/text_label.cpp.s
+.PHONY : includes/text_label/text_label.cpp.s
+
 includes/tree/tree.o: includes/tree/tree.cpp.o
 .PHONY : includes/tree/tree.o
 
@@ -846,6 +876,9 @@ help:
 	@echo "... includes/text_input/text_input.o"
 	@echo "... includes/text_input/text_input.i"
 	@echo "... includes/text_input/text_input.s"
+	@echo "... includes/text_label/text_label.o"
+	@echo "... includes/text_label/text_label.i"
+	@echo "... includes/text_label/text_label.s"
 	@echo "... includes/tree/tree.o"
 	@echo "... includes/tree/tree.i"
 	@echo "... includes/tree/tree.s"

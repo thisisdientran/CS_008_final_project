@@ -15,9 +15,9 @@ private:
     inline static std::map<std::string, sf::Font> _fonts;
     static void loadFont(const std::string& fontName);
     static std::string getFontPath(std::string fontName);
+    // static mean you can call without initializing the class for example Font::getFont()
 public:
     static sf::Font& getFont(const std::string& fontName);
-
 };
 
 

@@ -15,9 +15,17 @@ class Cursor : public sf::Text
 {
 private:
     sf::Clock clock;
+
+    enum CursorState {
+        BLINKING = 1 << 0, 
+        HIDDEN   = 1 << 1  
+    };
+    int state = BLINKING;
+    bool checkState(int flag) const;
+    void toggleState(int flag);
 public:
     Cursor();
-    // virtual void draw(sf::RenderTarget& window, sf::RenderStates states) const;
+    virtual void draw(sf::RenderWindow& window) const;
     void update();
 };
 

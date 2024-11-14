@@ -5,22 +5,23 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <map>
 
 class FileReader {
-public:
-    FileReader(const std::string& filename);
-    ~FileReader();
+    private:
+        inline static std::map<std::string, std::fstream> _files;
+        static void loadFile(const std::string& fileName);
+        static std::string getFilePath(std::string fileName);
+    public:
+        static std::fstream& getFile(const std::string& fileName);
+        void close(std::string fileName);
 
-    bool open();
-    bool close();
+        bool open();
 
-    bool is_open() const;
+        std::vector<std::string> getLine(std::string fileName);
 
-    size_t read_line(std::string& line);
-    size_t read_all_lines(std::vector<std::string>& lines);
-
-private:
-    std::ifstream file_;
+        size_t read_line(std::string& line);
+        size_t read_all_lines(std::vector<std::string>& lines);
 };
 
 #endif // FILE_READER_H
