@@ -7,6 +7,7 @@
 #include <time.h>
 #include <string>
 #include "../font/font.h"
+#include "../file_reader/file_reader.h"
 #include "../cursor/cursor.h"
 
 class TextInput{
@@ -25,6 +26,12 @@ class TextInput{
 
         sf::RectangleShape _textField;
         sf::Vector2f _sizeField;
+
+        sf::RectangleShape _fieldAutoCorrect;
+        sf::Vector2f _sizeAutoCorrect;
+        std::vector<sf::Text> _autoCorrect;
+        sf::Text nameT;
+
         Cursor c;
         
     public:
@@ -46,6 +53,10 @@ class TextInput{
         void setFieldOutlinedColor(sf::Color color);
         void setFieldOutlineThickness(float n);
         void setFieldPosition(sf::Vector2f position);
+
+        //auto correct field =================================================
+        void initAutoCorrectField();
+        void updateAutoCorrect(char c);
 
         // input =================================================
         void push_text(char ch);

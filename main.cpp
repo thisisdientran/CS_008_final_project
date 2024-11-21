@@ -19,7 +19,8 @@ int main(int argc, char *argv[])
     ws.setPosition({200, 200});
     */
 
-    TextInput t;
+    TextInput t("First Name");
+    t.setPosition({200,200});
     Cursor c;
 
     sf::RenderWindow window;
@@ -34,7 +35,7 @@ int main(int argc, char *argv[])
             if (event.type == sf::Event::Closed)
                 {window.close();}
             if(event.type == sf::Event::MouseButtonPressed){
-                if(event.mouseButton.x>=0 && event.mouseButton.x<200){
+                if(event.mouseButton.x>=350 && event.mouseButton.x<550){
                     t.isClicked(true);
                 } else {
                     t.isClicked(false);

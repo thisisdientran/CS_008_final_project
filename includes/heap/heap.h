@@ -1,8 +1,6 @@
 #ifndef HEAP_H
 #define HEAP_H
 
-#ifndef CS8FALL23_HEAP_HEAP_H
-#define CS8FALL23_HEAP_HEAP_H
 #include <vector>
 #include <initializer_list>
 template<typename T>
@@ -36,7 +34,7 @@ public:
     friend void test(Heap<U>& heap);
 };
 
-#include "heap.cpp"
+// #include "heap.cpp"
 #endif //CS8FALL23_HEAP_HEAP_H
 
-#endif
+// #endif

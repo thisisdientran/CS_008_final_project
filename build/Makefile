@@ -580,6 +580,36 @@ includes/heap/heap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/heap/heap.cpp.s
 .PHONY : includes/heap/heap.cpp.s
 
+includes/retangle/rectangle.o: includes/retangle/rectangle.cpp.o
+.PHONY : includes/retangle/rectangle.o
+
+# target to build an object file
+includes/retangle/rectangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/retangle/rectangle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/retangle/rectangle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/retangle/rectangle.cpp.o
+.PHONY : includes/retangle/rectangle.cpp.o
+
+includes/retangle/rectangle.i: includes/retangle/rectangle.cpp.i
+.PHONY : includes/retangle/rectangle.i
+
+# target to preprocess a source file
+includes/retangle/rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/retangle/rectangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/retangle/rectangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/retangle/rectangle.cpp.i
+.PHONY : includes/retangle/rectangle.cpp.i
+
+includes/retangle/rectangle.s: includes/retangle/rectangle.cpp.s
+.PHONY : includes/retangle/rectangle.s
+
+# target to generate assembly for a file
+includes/retangle/rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/includes/retangle/rectangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_test.dir/build.make CMakeFiles/basic_test.dir/includes/retangle/rectangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testB.dir/build.make CMakeFiles/testB.dir/includes/retangle/rectangle.cpp.s
+.PHONY : includes/retangle/rectangle.cpp.s
+
 includes/spriteSheetCutter/SpriteSheetCutter.o: includes/spriteSheetCutter/SpriteSheetCutter.cpp.o
 .PHONY : includes/spriteSheetCutter/SpriteSheetCutter.o
 
@@ -867,6 +897,9 @@ help:
 	@echo "... includes/heap/heap.o"
 	@echo "... includes/heap/heap.i"
 	@echo "... includes/heap/heap.s"
+	@echo "... includes/retangle/rectangle.o"
+	@echo "... includes/retangle/rectangle.i"
+	@echo "... includes/retangle/rectangle.s"
 	@echo "... includes/spriteSheetCutter/SpriteSheetCutter.o"
 	@echo "... includes/spriteSheetCutter/SpriteSheetCutter.i"
 	@echo "... includes/spriteSheetCutter/SpriteSheetCutter.s"
